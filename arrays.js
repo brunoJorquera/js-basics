@@ -47,16 +47,16 @@ console.group(middleNums)
 // CODE HERE
 
 function bigOrSmall(arr){
-  let answers = []
-  for(let i = 0; i < arr.length; i ++){
-    if(arr > 100){
+  let answers = [];
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] > 100){
      answers.push("big")
     } else{
      answers.push("small")
     }
-    // console.log(answers)
   }
-  console.log(answers)
+return answers
 }
 
-bigOrSmall()
+let numArr = [100, 23, 298, 24, 123, 99]
+console.log(bigOrSmall(numArr))

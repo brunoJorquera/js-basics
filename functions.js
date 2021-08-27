@@ -25,9 +25,9 @@ sum(2,5)
 
 function greaterThanFive(number){
   if(number > 5){
-    console.log(true)
+   return true// console.log(true)
   } else{
-    console.log(false)
+    return false//console.log(false)
   }
 }
 
@@ -58,6 +58,28 @@ function findZWords(word){
 let nameCheck = findZWords("Zack")
 
 console.log(nameCheck)
+
+// //Other Possibile Option 
+// function findZWords(word) {
+//   if (word[0] === 'Z' || word[0] === 'z') {
+//     return "the name begins with Z";
+//   } else {
+//     return "the name does not begin with Z"
+//   }
+// }
+// console.log(findZWords("debra"));
+
+// function findZwords(word){
+//   if(word.toLowerCase().startswith('z')){
+//     return "the name begins with z"
+//   } else{
+
+//     return "the name does not start witj z"
+//   }
+// }
+
+// console.log(findZWords("Zebra"))
+
 
 //////////////////PROBLEM 4////////////////////
 /*
