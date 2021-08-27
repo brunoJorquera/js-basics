@@ -20,10 +20,12 @@ let me ={
   firstName: "Bruno",
   state: "Texas",
   age: 21,
-  greeter: "Hello! My name is Bruno and I live in Texas!"
+  greeter: function(){
+   return `Hello! My name is ${me.firstName} and I live in ${me.state}!`
+  }
 }
 
-console.log(me)
+console.log(me.greeter())
 
 
 
