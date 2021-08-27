@@ -59,4 +59,4 @@ function bigOrSmall(arr){
   console.log(answers)
 }
 
-bigOrSmall(2)
+bigOrSmall()
