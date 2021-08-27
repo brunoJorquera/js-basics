@@ -16,7 +16,14 @@
 
 //CODE HERE
 
+let me ={
+  firstName: "Bruno",
+  state: "Texas",
+  age: 21,
+  greeter: "Hello! My name is Bruno and I live in Texas!"
+}
 
+console.log(me)
 
 
 
@@ -45,3 +52,19 @@
 */
 
 //CODE HERE
+
+function carFactory(make,model,year){
+  let car = {
+    make: "Honda",
+    model: "Accord",
+    year: 2021
+  }
+  if(car.year > 2018){
+    car.isNew = true
+  } else{
+    car.isNew = false
+  }
+  console.log(car)
+}
+
+carFactory()
